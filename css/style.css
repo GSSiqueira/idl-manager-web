@@ -39,7 +39,6 @@ header nav a{
 
 header nav .accordion{
     transition: 0.4s;
-
 }
 
 header .panel{
@@ -81,7 +80,7 @@ main #loginForm legend{
     font-weight: 600;
     color: white;
     padding: 16px;
-    margin: -5px;
+    margin: -3px;
     margin-bottom: 0px;
 }
 
@@ -101,9 +100,35 @@ main #loginForm input{
     margin: 0px 8px;
 }
 
+main #welcome h1{
+    font-size: 1.7em;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+main #welcome h2{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+main #welcome menu{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main #welcome button{
+    font-size: 0.8em;
+    padding: 16px 48px;
+    margin: 16px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 footer{
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 8px;
 }
