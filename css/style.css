@@ -144,6 +144,25 @@ main #welcome button:hover{
     background-color: rgb(221, 221, 221);
 }
 
+main #conferencia form{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main #conferencia .formGroup{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 8px 0px;
+        font-size: 1.1em;
+}
+
+main #conferencia .formGroup input{
+    font-size: 1.1em;
+    width: 8em;
+}
+
 footer{
     width: 100%;
     background-color: black;

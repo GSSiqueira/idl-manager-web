@@ -33,11 +33,24 @@
         <section id="conferencia">
             <h1>Conferencia de Caixa</h1>
             <form id="checkForm" action="submit">
-                <label for="caixaInicial">Caixa Inicial:</label><input type="number" name="caixaInicial"
-                    id="caixaInicial" value="0.0">
-                <label for="despesas">Total de Despesas:</label><input type="number" name="despesas" id="despesas" value="0.0">
-                <label for="debito">Total no Débito:</label><input type="number" name="debito" id="debito">
-                <label for="credito">Total no Crédito:</label><input type="number" name="credito" id="credito">
+                <div class="formGroup">
+                    <label for="caixaInicial">Caixa Inicial:</label><input type="number" name="caixaInicial"
+                        id="caixaInicial" value="0.0">
+                </div>
+                <div class="formGroup"><label for="despesas">Total de Despesas:</label><input type="number"
+                        name="despesas" id="despesas" value="0.0"></div>
+                <div class="formGroup"><label for="debito">Total no Débito:</label><input type="number" name="debito"
+                        id="debito"></div>
+                <div class="formGroup"><label for="credito">Total no Crédito:</label><input type="number" name="credito"
+                        id="credito"></div>
+                <div class="formGroup"><label for="pix">Total no Pix:</label><input type="number" name="pix" id="pix">
+                </div>
+                <div class="formGroup"><label for="dinheiro">Total em Dinheiro:</label><input type="number" name="dinheiro" id="dinheiro">
+                </div>
+                <div id="finalResult" class="formGroup">
+                    <label for="finalInput">Total vendas:</label>
+                    <input type="number" name="finalInput" id="finalInput" disabled value="0.0">
+                </div>
             </form>
         </section>
     </main>
