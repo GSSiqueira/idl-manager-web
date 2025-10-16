@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDL Manager - Início</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Home Page</h1>
+    <header>
+        <nav>
+            <a href="#">Conferencia de Caixa</a>
+            <a href="#">Fluxo de Caixa</a>
+            <a class="accordion" href="#">Gerenciar Categorias</a>
+            <div class="panel">
+                <a href="#">> Opção 1</a>
+                <a href="#">> Opção 2</a>
+                <a href="#">> Opção 3</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <h1>Bem-vindo (nome de usuario)! </h1>
+            <h2>Selecione uma opção:</h2>
+            <menu>
+                <button>
+                    Conferencia de Caixa Diário
+                </button>
+
+                <button>
+                    Fluxo de Caixa
+                </button>
+
+                <button>
+                    Gerenciar Categorias
+                </button>
+            </menu>
+        </section>
+    </main>
+    <footer>
+        <p>Denvolvido por GSS</p>
+    </footer>
+    <script>
+        let acc = document.getElementsByClassName("accordion");
+        let i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
+
 </html>

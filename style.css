@@ -13,8 +13,46 @@ html, body{
     height: 100vh;
     width: 100%;
 }
+header{
+    width: 100%;
+    border-bottom: 1px solid blue;
+}
 
-main#loginPage{
+header nav{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header nav a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    background-color: rgb(90, 95, 95);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(66, 71, 71);
+}
+
+header nav .accordion{
+    transition: 0.4s;
+
+}
+
+header .panel{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+header .panel a{
+    background-color: rgb(148, 148, 148);
+}
+
+main#loginPage, section#welcome{
     
     background-color: rgb(226, 226, 226);
     font-size: 1.1em;
