@@ -52,6 +52,10 @@ header .panel a{
     background-color: rgb(148, 148, 148);
 }
 
+header .panel a:hover{
+    background-color: rgb(128, 123, 123);
+}
+
 main#loginPage, section#welcome{
     
     background-color: rgb(226, 226, 226);
