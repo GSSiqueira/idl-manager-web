@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+main #conferencia form{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0px 15px;
+}
+
+main #conferencia .formGroup{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 8px 0px;
+    font-size: 1.2em;
+}
+
+main #conferencia .formGroup input{
+    padding: 8px;
+    font-size: 1.1em;
+    width: 8em;
+    height: 2em;
+    text-align: right;
+}
