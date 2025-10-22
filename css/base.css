@@ -67,84 +67,11 @@ header .panel a:hover{
     background-color: rgb(128, 123, 123);
 }
 
-main#loginPage, section#welcome{
-    
-    background-color: rgb(226, 226, 226);
-    font-size: 1.1em;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-main #loginForm{
-    background-color: rgb(201, 201, 201);
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-main #loginForm legend{
-    background-color: rgb(0, 0, 0);
-    font-size: 1.1em;
-    font-weight: 600;
-    color: white;
-    padding: 16px;
-    margin: -3px;
-    margin-bottom: 0px;
-}
-
-main #loginForm fieldset{
-    padding: 8px;
-}
-
-main #loginForm .formGroup{
-    margin: 8px 0px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
-
-main #loginForm input{
-    padding: 0 4px;
-    margin: 0px 8px;
-}
 
 main h1{
     font-size: 1.7em;
     text-align: center;
     margin: 16px 0px;
-}
-
-main #welcome h2{
-    font-size: 1.3em;
-    text-align: center;
-    margin: 16px 0px;
-}
-
-main #welcome menu{
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-main #welcome a{
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 16px 48px;
-    margin: 16px 0px;
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.418);
-}
-
-main #welcome a:hover{
-    background-color: rgb(221, 221, 221);
 }
 
 main #conferencia form{
