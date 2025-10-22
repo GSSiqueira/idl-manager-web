@@ -112,7 +112,7 @@ main #loginForm input{
     margin: 0px 8px;
 }
 
-main #welcome h1{
+main h1{
     font-size: 1.7em;
     text-align: center;
     margin: 16px 0px;
@@ -188,7 +188,6 @@ footer{
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
-
 /* Fade out the second bar */
 .change .bar2 {opacity: 0;}
 
