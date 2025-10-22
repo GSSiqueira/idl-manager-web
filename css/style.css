@@ -129,8 +129,11 @@ main #welcome menu{
     flex-flow: column nowrap;
 }
 
-main #welcome button{
+main #welcome a{
     background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
     font-size: 0.8em;
     padding: 16px 48px;
     margin: 16px 0px;
@@ -140,7 +143,7 @@ main #welcome button{
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.418);
 }
 
-main #welcome button:hover{
+main #welcome a:hover{
     background-color: rgb(221, 221, 221);
 }
 
@@ -161,6 +164,10 @@ main #conferencia .formGroup{
 main #conferencia .formGroup input{
     font-size: 1.1em;
     width: 8em;
+}
+
+main #checkForm {
+    padding: 0px 15px;
 }
 
 footer{
