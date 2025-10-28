@@ -33,8 +33,16 @@
     <main>
         <section id="flow">
             <h1>Fluxo de Caixa</h1>
-            <form action="submit" id="flowForm">
-                
+            <form id="flowForm">
+                <fieldset>
+                    <legend>Selecione o tipo de registro:</legend>
+                    <input type="radio" name="flowEntryType" id="flowEntryIn" value="entrada" required><label for="flowEntryIn">Entrada</label>
+                    <input type="radio" name="flowEntryType" id="flowEntryOut" value="saida"><label for="flowEntryOut" >Saidas</label>
+                </fieldset>
+                <label for="categoryList">Selecione a Categoria:</label>
+                <select name="categoryList" id="categoryList">
+                    <option value="exemplo">Exemplo</option>
+                </select>
             </form>
         </section>
     </main>
