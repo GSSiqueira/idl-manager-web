@@ -39,10 +39,19 @@
                     <input type="radio" name="flowEntryType" id="flowEntryIn" value="entrada" required><label for="flowEntryIn">Entrada</label>
                     <input type="radio" name="flowEntryType" id="flowEntryOut" value="saida"><label for="flowEntryOut" >Saidas</label>
                 </fieldset>
-                <label for="categoryList">Selecione a Categoria:</label>
-                <select name="categoryList" id="categoryList">
-                    <option value="exemplo">Exemplo</option>
+                <div class="formGroup">
+                    <label for="data">Data:</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <label for="categoryList">Categoria:</label>
+                <select name="categoryList" id="categoryList" required>
+                    <option value="">--Selecione uma categoria--</option>
+                    <option value="exemplo1">Exemplo 1</option>
+                    <option value="exemplo2">Exemplo 2</option>
+                    <option value="exemplo3">Exemplo 3</option>
+                    <option value="exemplo4">Exemplo 4</option>
                 </select>
+                <input type="submit" value="Enviar">
             </form>
         </section>
     </main>
@@ -50,6 +59,7 @@
         <p>Denvolvido por GSS</p>
     </footer>
     <script src="/js/scripts.js"></script>
+    <script src="/js/fluxo.js"></script>
 </body>
 
 </html>
