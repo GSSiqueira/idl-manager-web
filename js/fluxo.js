@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-        const dateInput = document.querySelector("#data");
+        const dateInput = document.querySelector("#entryDate");
         const today = new Date();
         const year = today.getFullYear();
         const month = String(today.getMonth() + 1).padStart(2, '0');

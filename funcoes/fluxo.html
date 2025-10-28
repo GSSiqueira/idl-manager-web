@@ -36,12 +36,14 @@
             <form id="flowForm">
                 <fieldset>
                     <legend>Selecione o tipo de registro:</legend>
-                    <input type="radio" name="flowEntryType" id="flowEntryIn" value="entrada" required><label for="flowEntryIn">Entrada</label>
-                    <input type="radio" name="flowEntryType" id="flowEntryOut" value="saida"><label for="flowEntryOut" >Saidas</label>
+                    <input type="radio" name="flowEntryType" id="flowEntryIn" value="entrada" required><label
+                        for="flowEntryIn">Entrada</label>
+                    <input type="radio" name="flowEntryType" id="flowEntryOut" value="saida"><label
+                        for="flowEntryOut">Saidas</label>
                 </fieldset>
                 <div class="formGroup">
                     <label for="data">Data:</label>
-                    <input type="date" name="data" id="data">
+                    <input type="date" name="entryDate" id="entryDate" required>
                 </div>
                 <label for="categoryList">Categoria:</label>
                 <select name="categoryList" id="categoryList" required>
@@ -51,6 +53,14 @@
                     <option value="exemplo3">Exemplo 3</option>
                     <option value="exemplo4">Exemplo 4</option>
                 </select>
+                <div class="formGroup">
+                    <label for="entryValue">Valor:</label>
+                    <input type="number" name="entryValue" id="entryValue" value="0" required>
+                </div>
+                <div class="formGroup">
+                    <label for="description">Descrição:</label>
+                    <textarea name="description" id="description" placeholder="Digite uma descrição." required></textarea>
+                </div>
                 <input type="submit" value="Enviar">
             </form>
         </section>
